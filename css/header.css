@@ -1,0 +1,55 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container,
+.navigation,
+.menu,
+.contact-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  padding: 24px 0 23px;
+  margin-right: 76px;
+}
+
+.menu,
+.contact-list {
+  gap: 40px;
+}
+
+.menu-item {
+  display: block;
+  padding: 24px 0 23px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  margin-left: auto;
+  font-style: normal;
+}
+
+.contact-item {
+  display: block;
+  padding: 24px 0 23px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+  color: #404bbf;
+}
