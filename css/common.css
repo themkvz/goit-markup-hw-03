@@ -11,6 +11,7 @@ ul {
 
 ul {
   padding: 0;
+  list-style: none;
 }
 
 img {
@@ -18,7 +19,7 @@ img {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -40,14 +41,10 @@ img {
   margin: -1px;
 }
 
-.page {
+body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
-}
-
-.list {
-  list-style: none;
 }
 
 .logo {

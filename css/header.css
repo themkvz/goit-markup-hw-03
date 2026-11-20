@@ -11,7 +11,7 @@
 }
 
 .header-logo {
-  padding: 24px 0 23px;
+  padding: 24px 0;
   margin-right: 76px;
 }
 
@@ -22,7 +22,7 @@
 
 .menu-item {
   display: block;
-  padding: 24px 0 23px;
+  padding: 24px 0;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -42,7 +42,7 @@
 
 .contact-item {
   display: block;
-  padding: 24px 0 23px;
+  padding: 24px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
